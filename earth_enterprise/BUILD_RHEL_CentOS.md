@@ -134,7 +134,7 @@ Execute:
 ```bash
 sudo yum install -y \
   bison-devel  cmake daemonize freeglut-devel \
-  gdbm-devel geos-devel giflib-devel GitPython \
+  gdbm-devel geos-devel gettext giflib-devel GitPython \
   libcap-devel libmng-devel libpng-devel libX11-devel libXcursor-devel \
     libXft-devel libXinerama-devel libxml2-devel libXmu-devel libXrandr-devel \
   ogdi-devel openjpeg-devel openjpeg2-devel openssl-devel \
@@ -165,7 +165,6 @@ the rest of the GEE build process.
 To clone this Git repository and build the RPM on RHEL6, execute the following:
 
 ```bash
-sudo yum install -y cmake gettext rpm-build
 mkdir -p ~/opengee/rpm-build/
 cd ~/opengee/rpm-build/
 
