@@ -75,7 +75,7 @@ sudo yum install git-lfs
 
 ## GCC 4.8
 
-For all flavors, install the standard development/build tools:
+For all versions of CentOS and RHEL, install the standard development/build tools:
 
 ```bash
 yum install ant bzip2 doxygen gcc-c++ patch python-argparse python-setuptools \
